@@ -26,13 +26,13 @@ const MyProfile=()=>{
 
 const AboutMe=()=>{
     return (<div className="content">
-        <p>My name is Minh Duy Nguyen, an international student from Vietnam who came to Canada with a great passion for web design. I am constantly learning and trying to develop my web design experiences and knowledge that will help me a lot in the future.</p>
+        <p>My name is Minh Duy Nguyen, an international student from Vietnam who came to Canada with a great passion for web design. I am constantly learning and trying to develop my web design experiences and knowledge that will help me a lot in the future. My biggest hobby is football, besides I also play games with my friends in my free time. I also enjoy reading books and listening to music to relieve stress.</p>
     </div>)
 };
 
 const ListItem=()=>{
     return (<div className="list">
-        <h2>My most favourite things</h2>
+        <h2>My most favourite things!</h2>
         <ol>
             <li>Soccer</li>
             <li>Video Game</li>
