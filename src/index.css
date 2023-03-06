@@ -2,33 +2,29 @@
 * {
     box-sizing: border-box;
 }
-body {
+
+html, body {
     font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-/**navbar styling**/
-.nav-container {
-    background-color: #F55A5A;
-    height: 55px;
+
+.nav {
     display: flex;
+    text-align: center;
     justify-content: center;
-    align-items: center;
+    gap: 50px;
+    padding: 140px 0;
+    background-image: url(https://th.bing.com/th/id/R.9098495b7c48b15da121924aaa15027f?rik=mQANH3UpbLFWVg&riu=http%3a%2f%2fgzjssport.com%2fguanli%2fkindeditor%2fattached%2fimage%2f20161117%2f20161117083765716571.png&ehk=8o%2fWJzUXbpNwLuEVxxio%2fdkhbVQTUGN1OUgWL%2frumiU%3d&risl=&pid=ImgRaw&r=0);
 }
-.nav-icon {
-    height: 24px;
-    width: 24px;
-    margin-right: 7px;
-    
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(185, 99, 18);
 }
-.nav-title{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: -0.075em;
-    color: #FFFFFF;
-    
-}
-/**card styling**/
+
 .card-content {
     display: flex;
     flex-direction: column;
@@ -36,32 +32,27 @@ body {
     align-items: center;
     margin-top: 60px;
 }
-.card-container {
+.container {
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #F5F5F5;
     padding: 30px 0;
 }
-.card-image {
+.player-image {
     width: 230px;
     height:330px;
     border-radius: 5px; 
+    object-fit: cover;
 }
-.card-info {
+.info {
     max-width: 570px;
     margin-left: 40px;
 }
-.location-container {
+.footer {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-}
-.location-icon {
-    width: 16.5px;
-    height: 18px;
-    margin-right: 8px; 
-}
-.location {
-    margin-right: 15px;
-    letter-spacing: 0.17em;
+    gap: 20px;
+    background-color: rgb(71, 43, 10);
+    height: 64px;
 }

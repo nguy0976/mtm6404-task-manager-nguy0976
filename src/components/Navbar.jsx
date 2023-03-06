@@ -1,14 +1,13 @@
 import React from "react";
 
-
  export default function Navbar() {
   return (
-    <nav className="nav-container"> 
-      <img src= "images/earth.png" className="nav-icon" alt="earth icon" />
-        <h1 className="nav-title">
-          my travel journal.
-        </h1>      
-         </nav>
-  );
-      
+    <div className="nav"> 
+      <a href="/">Home</a>    
+      <a href="/">Players</a>  
+      <a href="/">Information</a> 
+      <a href="/">Our Gallery</a>  
+      <a href="/">Contact Us</a>    
+    </div>
+  );     
 }
