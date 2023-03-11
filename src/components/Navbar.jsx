@@ -3,11 +3,14 @@ import React from "react";
  export default function Navbar() {
   return (
     <div className="nav"> 
-      <a href="/">Home</a>    
-      <a href="/">Players</a>  
-      <a href="/">Information</a> 
-      <a href="/">Our Gallery</a>  
-      <a href="/">Contact Us</a>    
+      <h2>Welcome to my first REACT page!</h2> 
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">To-Do</a></li>
+          <li><a href="/">About Us</a></li>
+        </ul>
+      </nav>
     </div>
   );     
 }

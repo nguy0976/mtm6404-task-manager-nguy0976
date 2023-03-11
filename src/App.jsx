@@ -1,22 +1,20 @@
 import React from "react"
 import Navbar from "./components/Navbar";
-import Player from "./components/Player";
+import Task from "./components/Task";
 import Footer from "./components/Footer";
-import data from "./data"
+import Header from "./components/Header"
 
 export default function App() {
-  const players = data.map(item => {
-    return(
-      <Player
-        key ={item.id}
-             {...item}/>
-    )
-  })
     return (
       <div className="App">
         <Navbar />
-        <div className="card-content">
-        {players}
+        <Header />
+        <div className="tasks"> 
+            <Task taskItem={"Do Home Work"} itemType={"Progress"}/>
+            <Task taskItem={"Workout"} itemType={"Wait List"}/>
+            <Task taskItem={"House Cleaning"} itemType={"Completed"}/>
+            <Task taskItem={"Reading Book"} itemType={"Completed"}/>
+            <Task taskItem={"Sleep early"} itemType={"Wait List"}/>
         </div>
         <Footer />
       </div>
