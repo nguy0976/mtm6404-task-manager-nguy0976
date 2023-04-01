@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+* {
+    text-align: center;
+}
+
 html, body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -26,18 +30,24 @@ ul li {
     justify-content: space-around;
     gap: 50px;
     padding: 1rem;
-    background-color: rgb(212, 182, 143);
+    background-color: rgb(192, 191, 191);
 }
-
+span{
+    padding: 20px;
+}
+button {
+    margin: 5px;
+}
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: rgb(212, 182, 143);
+    background-color: rgb(192, 191, 191);
     height: 64px;
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+
 

@@ -22,7 +22,7 @@ const ListItem = ({ id, task, priority, completed, onToggleCompleted, onDelete }
 
 const List = () => {
   const [items, setItems] = useState([
-    { id: 1, task: 'Finish Homw-Work', priority: 'High', completed: false },
+    { id: 1, task: 'Finish Home-Work', priority: 'High', completed: false },
     { id: 2, task: 'Buy groceries', priority: 'Low', completed: false },
     { id: 3, task: 'Clean house', priority: 'Medium', completed: false },
     { id: 4, task: 'Do Exercise', priority: 'Low', completed: false },
