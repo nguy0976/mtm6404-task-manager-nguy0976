@@ -1,12 +1,15 @@
-import NavBar from "./NavBar";
 
-const About = () =>{
+import NavBar from "./NavBar";
+import React, { useState } from 'react';
+
+
+const Task = () =>{
     return(
         <div className="App">
             <NavBar />
-            <p>About</p>
+            <h2>To-Do List</h2>
         </div>
     )
 };
 
-export default About;
+export default Task;

@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App'
 import './index.css'
-import About from './components/About'
+import Task from './components/Task'
+import List from './components/List'
+
 
 const router = createBrowserRouter([
   {
@@ -11,9 +13,13 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/about",
-    element: <About />,
-  }
+    path: "/task",
+    element: <Task />,
+  },
+  {
+    path: "/list",
+    element: <List />,
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
