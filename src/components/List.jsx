@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 
 const ListItem = ({ id, task, priority, completed, onToggleCompleted, onDelete }) => {
@@ -77,6 +79,7 @@ const ListItem = ({ id, task, priority, completed, onToggleCompleted, onDelete }
   
     return (
       <div>
+        <NavBar />
         <h2>Incomplete Tasks</h2>
         {incompleteItems.map((item) => (
           <ListItem
@@ -125,6 +128,7 @@ const ListItem = ({ id, task, priority, completed, onToggleCompleted, onDelete }
         <br></br>
         <Link to="/">Go back Home</Link>
       </div>
+      <Footer />
     </div>
   );
 };
