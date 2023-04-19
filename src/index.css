@@ -45,8 +45,13 @@ html, body {
     margin: 0;
     padding: 0;
 }
-ul{
+.detail ul{
     display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.detail ul li{
+    font-weight: unset;
 }
 a {
     color: black;
@@ -90,4 +95,5 @@ button {
     text-decoration: none;
     padding: 20px;
 }
+
 

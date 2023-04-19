@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div>
+    <div className='detail'>
       <h1>Welcome to the Todo List App</h1>
       <h2>Select a list to view:</h2>
       <br></br>
